@@ -1,0 +1,633 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: mitr ;
+}
+
+body{
+  margin: 0;
+  background-color: #F2F2F2;
+  color: #353C3F;
+}
+
+.container{
+  width: 1088px;
+  margin: 0 auto;
+}
+
+a{
+  text-decoration: none;
+  color: #353C3F;
+}
+
+.star{
+  color: yellow;
+}
+
+.star0{
+  color: #F2F2F2;
+}
+
+a:hover{
+  padding: 8px 10px 8px 10px ;
+  border-radius: 10px;
+  background-color:#198754 ;
+  text-decoration: none;
+  color: white;
+}
+/*
+====================================================================================================================================================================
+ Started Header
+====================================================================================================================================================================
+*/ 
+
+
+.containerHead{
+  width: 1088px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+
+.logo{
+  margin: 10px 10px 10px 0;
+  width: 18%;
+  height: 18%;
+}
+
+.menuBar{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex: 1;
+}
+
+.menuBar02{
+  display: flex;
+  flex-direction: row;
+}
+
+.textMenu{
+  font-weight: 450;
+  font-size: 18px;
+  margin: auto 10px;
+}
+
+.infoIcon{
+  font-weight: 450;
+  font-size: 18px;
+  margin: auto 0 auto 10px;
+}
+
+.textRegis{
+  display: inline;
+  font-weight: 450;
+  font-size: 18px;
+  color: white;
+  background-color: #198754;
+  padding: 8px 10px 8px 10px ;
+  border-radius: 10px;
+}
+
+.iconMenu{
+  margin: auto 1px;
+}
+
+.navbar{
+  /* width: 100%;
+  position: fixed; */
+  background-color: white;
+  box-shadow: 0 2px 4px 0 #C0CFB2;
+}
+
+
+/*
+====================================================================================================================================================================
+ Finished Header
+====================================================================================================================================================================
+*/ 
+
+
+/*
+====================================================================================================================================================================
+ Started Products
+====================================================================================================================================================================
+*/ 
+
+
+.topicContent{
+  font-size: 28px;
+  font-weight:600;
+  margin: 10px 0px 10px 0px;
+}
+
+.gridContainer{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-column-gap: 80px;
+  grid-row-gap: 50px;
+  margin: 20px 0px 60px 0px ;
+}
+
+.boquet{
+  /* background-color: white; */
+}
+
+.btnShop{
+  display: flex;
+  justify-content: space-between;
+}
+
+.bouqetImg{
+  width: 100%;
+  /* height: 80%; */
+}
+
+.infoBouqet{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 10px 0px 10px 0px ;
+}
+
+.nameBouqets{
+  font-size: 21px;
+  font-weight: 500;
+}
+
+.nameFlowers{
+  font-size: 18px;
+  color: #7F7F7F;
+}
+
+.namePrice{
+  font-size: 20px;
+  
+}
+
+.btnAdd{
+  font-size: 14px;
+  font-weight:300;
+  padding: 5px 20px 5px 20px;
+  border:solid 2px #95989A;
+  border-radius: 5px;
+}
+
+.btnAdd:hover{
+  background-color: #49654E;
+  color: white;
+  border:solid 2px #49654E;
+}
+
+.btnBuy{
+  font-size: 14px;
+  font-weight:300;
+  padding: 5px 30px 5px 30px;
+  border:solid 2px #49654E;
+  border-radius: 5px;
+  background-color: #49654E;
+  color: white;
+}
+
+.btnBuy:hover{
+  background-color: #8ECC9A;
+  color: white;
+  border:solid 2px #8ECC9A;
+}
+
+/*
+====================================================================================================================================================================
+ Finished Products
+====================================================================================================================================================================
+*/ 
+
+
+
+/*
+====================================================================================================================================================================
+ Started Landing
+====================================================================================================================================================================
+*/
+
+.content01{
+  width: 100%;
+  height: 100vh;
+  background: url("../src/img/bg1.jpg");
+  background-size: cover;
+}
+
+.topicContent01{
+  line-height: 60px;
+  font-weight: 500;
+  font-size: 48px;
+  color: white;
+  letter-spacing: 1px;
+  margin: 0 0 10px 0;
+}
+
+.detailContent01{
+  font-weight:300;
+  font-size: 24px;
+  color: white;
+}
+
+.btnGreen{
+  display: inline-flex;
+  font-weight: 450;
+  font-size: 24px;
+  color: white;
+  background-color: #198754;
+  padding: 8px 10px 8px 10px ;
+  border-radius: 10px;
+  margin: 25px 0 0
+}
+
+.textIntro{
+  padding: 250px 0 0 0;
+}
+
+.rating{
+  display: flex;
+  
+}
+
+
+.boquet02{
+  background-color: white;
+}
+
+.boquet:hover{
+  box-shadow: 10px 10px 30px #7E8078;
+}
+
+.boquet02:hover{
+  box-shadow: 10px 10px 30px #7E8078;
+}
+
+.textContent02{
+  display: flex;
+  justify-content: space-between;
+}
+
+.topicContent02{
+  font-size: 38px;
+  font-weight:600;
+  margin: 20px 0px 20px 0px;
+}
+
+.detailContent02{
+  color: #49654E;
+  font-size: 28px;
+  font-weight:350;
+  margin: 40px 0px 0px 0px;
+}
+
+
+
+.content03 {
+  width: 100%;
+  height: 100vh;
+  background: url("../src/img/bg2.jpg");
+  background-size: cover;
+}
+
+.topicContent03{
+  line-height: 60px;
+  font-weight: 350;
+  font-size: 40px;
+  color: #353C3F;
+  letter-spacing: 1px;
+  margin: 0 0 30px 0;
+}
+
+.textIntro03{
+  text-align: left;
+  padding: 150px 0 0 0;
+}
+
+.content04 {
+  width: 100%;
+  height: 70vh;
+  background: url("../src/img/bg3.jpg");
+  background-size: cover;
+}
+
+.textIntro04{
+  text-align: left;
+  padding: 100px 0 0 500px;
+}
+
+.topicContent04{
+  line-height: 60px;
+  font-weight: 500;
+  font-size: 48px;
+  color: #353C3F;
+  letter-spacing: 1px;
+  margin: 0 0 5px 0;
+}
+
+.detailContent04{
+  font-weight:300;
+  font-size: 24px;
+  color: #353C3F;
+}
+
+/* .test4{
+  ma
+} */
+/*
+====================================================================================================================================================================
+ Finished Landing
+====================================================================================================================================================================
+*/
+
+
+
+
+
+/*
+====================================================================================================================================================================
+ Started Login
+====================================================================================================================================================================
+*/
+.loginBg{
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  background: url("../src/img/bgLogin.jpg");
+  background-size: cover;
+}
+
+.topicLogin{
+  font-size: 38px;
+  font-weight:600;
+  /* margin: 20px 0px 20px 0px; */
+}
+
+.formUser{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid hls(216, 8%, 88%);
+  border-radius: 10px;
+  width: 535px;
+  height: 400px;
+  margin: 0px auto;
+  background-color: #ffffff;
+  text-align: center;
+  padding: 40px 0 40px 0;
+  box-shadow: 0px 5px 10px 5px #E4E6D9;
+}
+
+.alignForm{
+  display: flex;
+  flex-direction: column;
+  margin: 20px auto;
+  width: 60%;
+  
+  
+}
+
+.userField{
+  width: 100%;
+  padding: 10px;
+  font-size: 20px;
+  background-color: #ffffff;
+  border: 1px solid #353C3F;
+  border-radius: 10px;
+  margin: 10px 0 10px 0;
+}
+
+
+
+/*
+====================================================================================================================================================================
+ Finished Login
+====================================================================================================================================================================
+*/
+
+
+/*
+====================================================================================================================================================================
+ Started Register
+====================================================================================================================================================================
+*/
+
+.regisBg{
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  background: url("../src/img/bgRegis.jpg");
+  background-size: cover;
+}
+
+
+.topicRegis{
+  font-size: 18px;
+  margin: 0 auto 0 0;
+}
+
+
+.formUserReg{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid hls(216, 8%, 88%);
+  border-radius: 10px;
+  width: 535px;
+  height: 520px;
+  margin: 0px auto;
+  background-color: #ffffff;
+  text-align: center;
+  padding: 40px 0 40px 0;
+  box-shadow: 0px 5px 10px 5px #E4E6D9;
+
+}
+
+.userFieldReg{
+  width: 100%;
+  padding: 10px;
+  font-size: 20px;
+  background-color: #ffffff;
+  border: 1px solid #353C3F;
+  border-radius: 10px;
+  margin: 0px 0 10px 0;
+}
+
+
+.containerReg{
+  width: 1088px;
+  margin: 0 0 0 550px;
+}
+
+
+
+/*
+====================================================================================================================================================================
+ Finished Register
+====================================================================================================================================================================
+*/
+
+
+/*
+====================================================================================================================================================================
+ Started AddCart
+====================================================================================================================================================================
+*/ 
+
+.boundaryAdd{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border: 1px solid hls(216, 8%, 88%);
+  border-radius: 10px;
+  width: 700px;
+  height: auto;
+  margin: 0px auto;
+  background-color: #ffffff;
+  padding: 40px 0 40px 0;
+  box-shadow: 0px 5px 10px 5px #E4E6D9;
+  margin: 30px 0 30px 0;
+}
+
+.boundaryAdd{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.bouqetImgAdd{
+  width: 25%;
+  margin: 0 30px;
+}
+
+
+.nameBouqetsAdd{
+  flex: 1;
+  font-size: 21px;
+  font-weight: 500;
+  align-items: flex-start;
+  margin: 0px 0px 130px 0;
+}
+
+.namePriceAdd{
+  font-size: 20px;
+  margin: 0px 30px 130px 0;
+  
+}
+
+
+.btnDelete{
+  margin: 0px 10px 130px 0;
+  /* border: none;
+  background: none;
+  padding: 0;
+  float: right;
+  cursor: pointer; */
+}
+
+
+.boundaryCheck{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  /* align-items: center; */
+  border: 1px solid hls(216, 8%, 88%);
+  border-radius: 10px;
+  width: auto;
+  height: auto;
+  margin: 0px auto;
+  background-color: #ffffff;
+  padding: 40px 0 40px 0;
+  box-shadow: 0px 5px 10px 5px #E4E6D9;
+  margin: 30px 0 30px 0;
+}
+
+.topicCheck{
+  font-size: 28px;
+  font-weight: 600;
+  margin: 0px 0px 0px 20px;
+}
+
+.infoAdress{
+  display: inline-flex;
+  flex-direction: column;
+}
+
+
+.nameTotalBouqets{
+  flex: 1;
+  font-size: 21px;
+  font-weight: 500;
+  align-items: flex-start;
+  margin: 0px 0px 130px 0;
+}
+
+.nameTotalPrice{
+  font-size: 20px;
+  margin: 0px 30px 130px 0;
+  
+}
+
+
+
+
+/*
+====================================================================================================================================================================
+ Finished AddCart
+====================================================================================================================================================================
+*/ 
+
+
+
+
+
+
+
+
+/*
+====================================================================================================================================================================
+ Started Footer
+====================================================================================================================================================================
+*/ 
+.footer{
+  display: flex;
+  height: 350px;
+  background-color: #253528;
+}
+
+.footerMenu{
+  margin: 14.5px 0;
+  color: white;
+}
+
+.containerFooter{
+  margin: 30px auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.topicFooter{
+  font-size: 18px;
+  margin: 0 0 10px 0;
+}
+
+.detailFooter{
+  font-weight: lighter;
+  font-size: 16px;
+  margin: 0 0 10px 0;
+}
+
+
+/*
+====================================================================================================================================================================
+ Finished Footer
+====================================================================================================================================================================
+*/ 
